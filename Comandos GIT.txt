@@ -5,11 +5,11 @@ git clone - Clona um repositório (snapshot do estado atual do repositório)
 
 git init - Inicia um novo repositório
 
-git remote add {NOME_DO_ARQUIVO} - Adiciona arquivo ao controle de versão
+git add {NOME_DO_ARQUIVO} - Adiciona arquivo ao controle de versão
 
 git add . - Adiciona todos os arquivos ao controle de versão
 
-git add {NOME_DESTINO} {ENDEREÇO_DESTINO} - adiciona um endereço remoto
+git remote add {NOME_DESTINO} {ENDEREÇO_DESTINO} - adiciona um endereço remoto
 
 git push -u {NOME_DESTINO} {nome_da_branch} - empurra as alterações locais para o repositório e branch de destino
 
@@ -20,9 +20,9 @@ git pull - puxa alterações na branch atual
 
 git fetch - puxa alterações de Index das branchs
 
-git branch {nome_da_branch} - altera a branch atual
+git checkout {nome_da_branch} - altera a branch atual
 
-git branch -b {nome_da_branch} - altera a branch atual (cria se ela não existir)
+git checkout -b {nome_da_branch} - altera a branch atual (cria se ela não existir)
 
 git merge - Mescla duas branchs (esse é que da merda)
 		--no-commit --no-ff
