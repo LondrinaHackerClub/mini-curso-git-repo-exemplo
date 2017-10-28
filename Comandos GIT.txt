@@ -26,5 +26,3 @@ git checkout -b {nome_da_branch} - altera a branch atual (cria se ela não exist
 
 git merge - Mescla duas branchs (esse é que da merda)
 		--no-commit --no-ff
-		
-
